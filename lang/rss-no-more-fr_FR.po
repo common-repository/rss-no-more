@@ -1,0 +1,151 @@
+# Translation of the WordPress plugin RSS No More 0.2 by Jerome Neuveglise.
+# Copyright (C) 2010 Jerome Neuveglise
+# This file is distributed under the same license as the RSS No More package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS No More 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-19 13:15+0200\n"
+"PO-Revision-Date: 2010-04-19 13:20+0100\n"
+"Last-Translator: Jérôme Neuvéglise <jneuveglise@selexens.com>\n"
+"Language-Team: J Neuveglise\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: rss-no-more.php:39
+#: rss-no-more.php:60
+msgid "You cannot edit the RSS No More options."
+msgstr "Vous ne pouvez pas changer les options de RSS No More"
+
+#: rss-no-more.php:53
+msgid "RSS No More settings saved"
+msgstr "La configuration de RSS No More a bien été enregistrée"
+
+#: rss-no-more.php:74
+msgid "RSS No More settings deleted. You may now remove this plugin."
+msgstr "La configuration du plugin RSS No More a été supprimée. Vous pouvez désinstaller le plugin."
+
+#: rss-no-more.php:82
+msgid "RSS No More configuration pannel"
+msgstr "Configuration de RSS No More"
+
+#: rss-no-more.php:88
+msgid "Truncate RSS feeds at the more sign"
+msgstr "Tronquer le flux RSS à la balise 'more'"
+
+#: rss-no-more.php:89
+msgid "If this is checked, it will cut the RSS feed at the more sign. If not, you can still use [rss-cut] tag in your article to choose where to cut the RSS feed on a per article basis."
+msgstr "Si coché, le flus RSS sera coupé à la balise 'more'. Sinon vous pouvez utiliser le tag [rss-cut] dans vos articles pour choisir où couper le flux RSS article par article."
+
+#: rss-no-more.php:92
+msgid "Text to prepend the article link"
+msgstr "Texte à ajouter avant le lien vers l'article"
+
+#: rss-no-more.php:96
+msgid "Emphasis Link (italic)"
+msgstr "Mettre le lien en italique"
+
+#: rss-no-more.php:100
+msgid "Track clicks"
+msgstr "Suivre les clicks"
+
+#: rss-no-more.php:101
+msgid "Add utm_* trackers to the full article link for your analytics"
+msgstr "Ajoute des codes de suivi utm_* sur les liens pour le tracking"
+
+#: rss-no-more.php:104
+msgid "utm_campaign"
+msgstr "utm_campaign"
+
+#: rss-no-more.php:105
+msgid "utm_campaign value. Ex: rss-no-more"
+msgstr "utm_campaign value. Ex : rss-no-more"
+
+#: rss-no-more.php:108
+msgid "utm_medium"
+msgstr "utm_medium"
+
+#: rss-no-more.php:109
+msgid "utm_medium value. Ex: rss"
+msgstr "utm_medium value. Ex : rss"
+
+#: rss-no-more.php:112
+msgid "utm_source"
+msgstr "utm_source"
+
+#: rss-no-more.php:113
+msgid "utm_source value. Ex: feed"
+msgstr "utm_source value. Ex : feed"
+
+#: rss-no-more.php:116
+msgid "RSS Footer to append to all articles"
+msgstr "Texte à ajouter à la fin de chaque article dans le flux RSS"
+
+#: rss-no-more.php:116
+msgid "(leave it blank for no footer)"
+msgstr "(laisser vide pour aucun pied de RSS)"
+
+#: rss-no-more.php:117
+msgid "You can use specific keywords such as:"
+msgstr "Vous pouvez utiliser des mots clés spécifiques comme:"
+
+#: rss-no-more.php:117
+#, php-format
+msgid "%%POSTLINK%% for the post link with title as anchor"
+msgstr "%%POSTLINK%% pour un lien vers l'article et le titre de l'article en ancre"
+
+#: rss-no-more.php:117
+#, php-format
+msgid "%%BLOGLINK%% for your blog url with blog title as anchor"
+msgstr "%%BLOGLINK%% pour un lien vers votre blog avec le titre du blog en ancre"
+
+#: rss-no-more.php:117
+#, php-format
+msgid "%%BLOGDESCLINK%% for your blog url with blog title and description as anchor"
+msgstr "%%BLOGDESCLINK%% pour un lien vers votre blog avec le titre et la description en ancre"
+
+#: rss-no-more.php:117
+#, php-format
+msgid "%%AUTHOR%% for the post author's name"
+msgstr "%%AUTHOR%% pour le nom de l'auteur"
+
+#: rss-no-more.php:120
+msgid "Add an horizontal rule before the footer"
+msgstr "Ajouter une ligne horizontale avant le footer"
+
+#: rss-no-more.php:124
+msgid "Footer css style"
+msgstr "Style CSS du texte ajouté à la fin"
+
+#: rss-no-more.php:125
+msgid "CSS style to apply to the footer.<br />Example : padding: 5px; border: 1px solid #333; background: #eee; font-size: 0.9em;"
+msgstr "Style CSS à appliquer au texte de fin.<br />Par exemple : padding: 5px; border: 1px solid #333; background: #eee; font-size: 0.9em;"
+
+#: rss-no-more.php:129
+msgid "Save settings"
+msgstr "Enregistrer les paramètres"
+
+#: rss-no-more.php:132
+msgid "Delete all plugin setting from database?"
+msgstr "Supprimer la configuration de la base de données ?"
+
+#: rss-no-more.php:133
+msgid "Just press the button below. Beware there is no undo !"
+msgstr "Il suffit de presser le bouton ci-dessous. Attention cette action est définitive !"
+
+#: rss-no-more.php:138
+msgid "Delete settings"
+msgstr "Supprimer les paramètres"
+
+#~ msgid "RSS No More"
+#~ msgstr "RSS No More"
+
+#~ msgid "When activated, it will cut your rss feeds at the 'more' tag."
+#~ msgstr ""
+#~ "Une fois activé, il va couper vos flux RSS à la balise 'more' et ajouter "
+#~ "un texte sous l'article (en option)"
